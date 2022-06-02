@@ -171,3 +171,14 @@ p12 {
 p14 {
   font-size: 20px;
 }
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 1.5%;
+  background-color: #39FF14;
+  color: white;
+  text-align: center;
+}
