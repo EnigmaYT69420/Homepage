@@ -1,5 +1,85 @@
-    height: 100%;
+height: 100%;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, san-serif;
+  font-size: 12pt; /* maybe change font size and font idk */
+  background-image: linear-gradient(to bottom right, #101010, #282828);
+}
+
+#logo img {
+  float: left;
+  position: absolute;
+  margin-top: 12px;
+  margin-left: 10px;
+  width: 110px;
+}
+
+#search-nav {
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 200px;
+  width: 110px;
+}
+
+#menu {
+  float: right;
+  width: 70%;
+  height: 100%;
+  margin: none;
+}
+
+#menu li {
+  display: inline-block;
+  padding: none;
+  margin: none;
+}
+
+#menu li:hover a,
+#menu li span {
+  text-color: lime;
+  text-decoration: none;
+  opacity: 0.8;
+  transform: translateY(3px);
+  transition: 2s;
+}
+
+#menu ul {
+  text-align: center;
+  float: right;
+  margin: none;
+}
+
+#menu li a,
+#menu li span {
+  display: inline-block;
+  padding: 0em 1.5em;
+  text-decoration: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 60px;
+}
+
+#menu li a {
+  color: white;
+}
+
+#menu li:hover a,
+#menu li span {
+  color: lime;
+  border-right: 0.001px solid lime;
+  border-left: 0.001px solid lime;
+  border-top: 0.001px solid lime;
+  border-bottom: 0.001px solid lime;
+  text-decoration: none;
+}
+
      
 body{
     margin: 0px;
