@@ -76,6 +76,11 @@ body {
   border-bottom: 0.001px solid lime;
   text-decoration: none;
 }
+.header{
+text-align:center;
+}
+
+
 
 h1 {
   text-align: center;
