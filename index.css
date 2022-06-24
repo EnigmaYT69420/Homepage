@@ -118,14 +118,14 @@ header{
     text-decoration: none;
 }
 
-#search2 {
+#search {
    float: left;
    padding:11px;
    border:none;
    margin-top: 3px;
    margin-left:-40px;
    font-size: 17px;
-   position: relative;
+   position: absolute;
    left: 160px;
 }
 
